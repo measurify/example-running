@@ -12,8 +12,6 @@ The board used is a [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/hardware
 
 ![Arduino Nano 33 BLE Sense](images/Arduino-Nano-33-BLE-Sense.png?raw=true "Arduino Nano 33 BLE Sense")
 
-![Arduino with custom battery](images/Arduino-with-custom-battery.png?raw=true "Arduino with custom battery")
-
 ## *Software*
 
 The necessary code is:
@@ -34,13 +32,8 @@ To setup the embedded system, the following steps need to be followed:
 
 4. In the Start page you choose the tag to analyze (type of run), identify the measurement with a name, select the IMU function to collect the data relating to the quantities considered and start the data collection through the “Start” button. A counter at the bottom left confirms the arrival of the data. Pressing the “Start” button will display a scrolling diagram that allows you to view the values collected in real time. Pressing the “Stop and Send” button stops the measurement and, if everything went well, the message “Values sent correctly” appears, indicating that the collected data has been sent to the cloud service.
 
-
 ![Start Page](images/Start-Page.png?raw=true "Start Page")
-
-![Start Page during measurement](images/Start-Page-during-measurement.png?raw=true "Start Page during measurement")
 
 5. In the Running Page you can monitor your run in real time, as it shows a percentage of your run quality based on the Arduino’s predictions. If multiple fatigued run classifications are detected, the page will notify the runner to take a break, showing the run quality achieved.
 
-![Running Page during measurement](images/Running-Page-during-measurement.png?raw=true "Running Page during measurement")
-
-![Running Page during the break](images/Running-Page-during-the-break.png?raw=true "Running Page during the break")
+![Running Page](images/Running-Page.png?raw=true "Running Page")
